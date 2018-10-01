@@ -1,0 +1,63 @@
+[editor]
+line_wrapping=true
+line_break_column=80
+auto_continue_multiline=true
+
+[file_prefs]
+final_new_line=true
+ensure_convert_new_lines=true
+strip_trailing_spaces=true
+replace_tabs=true
+
+[indentation]
+indent_width=2
+indent_type=0
+indent_hard_tab_width=8
+detect_indent=false
+detect_indent_width=true
+indent_mode=2
+
+[project]
+name=UEM K-Means Clusterer
+base_path=/home/neel/Clg_Projects/CS591
+description=
+file_patterns=
+
+[long line marker]
+long_line_behaviour=1
+long_line_column=72
+
+[files]
+current_page=2
+FILE_NAME_0=804;CMake;0;EUTF-8;0;1;1;%2Fhome%2Fneel%2FClg_Projects%2FCS591%2FCMakeLists.txt;0;6
+FILE_NAME_1=211;C++;0;EUTF-8;0;1;1;%2Fhome%2Fneel%2FClg_Projects%2FCS591%2Fmain.cpp;0;2
+FILE_NAME_2=461;C++;0;EUTF-8;0;1;1;%2Fhome%2Fneel%2FClg_Projects%2FCS591%2Fsrc%2FKmeansGui.cpp;0;4
+
+[VTE]
+last_dir=/home/neel
+
+[prjorg]
+source_patterns=*.c;*.C;*.cpp;*.cxx;*.c++;*.cc;*.m;
+header_patterns=*.h;*.H;*.hpp;*.hxx;*.h++;*.hh;
+ignored_dirs_patterns=.*;CVS;
+ignored_file_patterns=*.o;*.obj;*.a;*.lib;*.so;*.dll;*.lo;*.la;*.class;*.jar;*.pyc;*.mo;*.gmo;
+generate_tag_prefs=0
+external_dirs=
+
+[build-menu]
+NF_00_LB=Change Back Dir
+NF_00_CM=cd ..
+NF_00_WD=/home/neel/Clg_Projects/CS591/
+NF_01_LB=Change Dir to Build
+NF_01_CM=cd build
+NF_01_WD=/home/neel/Clg_Projects/CS591/
+CMakeFT_00_LB=Make dir
+CMakeFT_00_CM=mkdir build 
+CMakeFT_00_WD=/home/neel/Clg_Projects/CS591/
+CMakeFT_01_LB=Remove dir
+CMakeFT_01_CM=rm -rf ./build
+CMakeFT_01_WD=/home/neel/Clg_Projects/CS591/
+CMakeFT_02_LB=Apply cmake
+CMakeFT_02_CM=cd ./build && cmake .. && make
+CMakeFT_02_WD=/home/neel/Clg_Projects/CS591/
+filetypes=CMake;
